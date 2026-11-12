@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#030409"/><stop offset=".55" stop-color="#100817"/><stop offset="1" stop-color="#26020D"/></linearGradient>
+  <linearGradient id="neon" x1="120" y1="0" x2="1080" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#FF1744"/><stop offset=".5" stop-color="#FF3D81"/><stop offset="1" stop-color="#8B5CFF"/></linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+<path d="M0 230 180 150 300 210 470 80 610 190 780 65 930 175 1090 95 1200 145" stroke="#FF1744" stroke-opacity=".2" stroke-width="1.5" fill="none"/>
+<path d="M0 250H1200M0 270H1200" stroke="#FF1744" stroke-opacity=".16"/>
+<g stroke="url(#neon)" stroke-width="2" fill="none" filter="url(#glow)"><path d="M72 55H210L235 80V220H72Z"/><path d="M1128 55H990L965 80V220H1128Z"/><path d="M90 85H180M1020 85H1110"/></g>
+<g fill="#FF476F" opacity=".75"><circle cx="265" cy="78" r="2"/><circle cx="935" cy="220" r="2"/><circle cx="300" cy="232" r="1.5"/><circle cx="900" cy="62" r="1.5"/></g>
+<text x="600" y="137" text-anchor="middle" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="52" font-weight="700" letter-spacing="7">SARANG R N</text>
+<text x="600" y="180" text-anchor="middle" fill="#FF527B" font-family="monospace" font-size="17" letter-spacing="6"> // DEVELOPER • AI EXPLORER //</text>
+<text x="600" y="218" text-anchor="middle" fill="#C8C4D0" font-family="monospace" font-size="12" letter-spacing="4">CREATE THE FUTURE, ONE PROJECT AT A TIME</text>
+</svg>
