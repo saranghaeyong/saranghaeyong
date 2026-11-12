@@ -85,6 +85,26 @@ Writing and talk links will be added here as they are published.
   For project enquiries: <a href="https://saranghaeyong.github.io/OPEN-PORTFOLIO/">get in touch through my portfolio</a>
 </p>
 
+---
+
+<p align="center">
+  <img src="./assets/cyberpunk-neon.svg" alt="Sarang R N — cyberpunk neon profile banner" width="100%" />
+</p>
+
+### // whoami
+
+I'm an MCA graduate and developer from Kerala, India, interested in building useful software and exploring creative technology. I enjoy working across web development, AI-assisted tools, Android TV experiences, and open-source projects.
+
+### // currently
+
+- Building and refining Android TV and media-focused projects.
+- Exploring AI tools, automation, and practical developer workflows.
+- Experimenting with modern web interfaces, Linux, and open-source software.
+
+### // contact
+
+[Portfolio](https://saranghaeyong.github.io/OPEN-PORTFOLIO/) · [GitHub @saranghaeyong](https://github.com/saranghaeyong)
+
 <p align="center">
   <i>Thanks for visiting — build, create, explore.</i>
 </p>
