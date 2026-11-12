@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Deadpool-inspired masked mercenary character</title>
+  <desc id="desc">A comic-book style red and black masked antihero portrait with white eye lenses, crossed sword handles, and a dark red glow.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#09090d"/>
+      <stop offset="1" stop-color="#21070c"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0444b"/>
+      <stop offset=".55" stop-color="#a90f20"/>
+      <stop offset="1" stop-color="#590914"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+  <rect width="900" height="560" rx="28" fill="url(#bg)"/>
+  <circle cx="450" cy="265" r="190" fill="#e51c35" opacity=".22" filter="url(#glow)"/>
+  <path d="M180 560c18-118 112-177 270-177s252 59 270 177" fill="#15151b" stroke="#4b171e" stroke-width="8"/>
+  <path d="M300 560c18-104 65-155 150-155s132 51 150 155" fill="url(#suit)" stroke="#2a080d" stroke-width="8"/>
+  <path d="M355 417l-100-98 25-27 120 92M545 417l100-98-25-27-120 92" fill="none" stroke="#111116" stroke-width="20" stroke-linecap="round"/>
+  <path d="M267 292l-70-78 11-10 82 68M633 292l70-78-11-10-82 68" fill="none" stroke="#c7c7ce" stroke-width="7" stroke-linecap="round"/>
+  <path d="M450 75c-105 0-164 72-164 174 0 94 56 163 164 190 108-27 164-96 164-190 0-102-59-174-164-174z" fill="url(#suit)" stroke="#3b080e" stroke-width="12"/>
+  <path d="M450 82c-29 43-42 91-42 151 0 74 16 139 42 199-86-26-133-85-133-181 0-93 48-155 133-169z" fill="#15151b"/>
+  <path d="M450 82c29 43 42 91 42 151 0 74-16 139-42 199 86-26 133-85 133-181 0-93-48-155-133-169z" fill="#15151b"/>
+  <path d="M319 209c28-29 72-42 112-31-18 45-53 76-101 84-13-15-17-34-11-53z" fill="#f5f2eb" stroke="#7d111e" stroke-width="8"/>
+  <path d="M581 209c-28-29-72-42-112-31 18 45 53 76 101 84 13-15 17-34 11-53z" fill="#f5f2eb" stroke="#7d111e" stroke-width="8"/>
+  <path d="M318 208l112-30-23 39-77 48zM582 208l-112-30 23 39 77 48z" fill="#fff" opacity=".22"/>
+  <path d="M375 356h150" stroke="#30070d" stroke-width="9" stroke-linecap="round"/>
+  <path d="M375 385h150" stroke="#f36a70" stroke-width="4" opacity=".5" stroke-linecap="round"/>
+  <path d="M220 505l-44-44 12-12 44 44M680 505l44-44-12-12-44 44" fill="none" stroke="#aeb0b8" stroke-width="9" stroke-linecap="round"/>
+  <text x="450" y="526" text-anchor="middle" fill="#f5dfe1" font-family="monospace" font-size="18" letter-spacing="7" opacity=".72">MAXIMUM EFFORT</text>
+</svg>
