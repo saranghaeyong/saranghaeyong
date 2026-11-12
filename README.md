@@ -105,12 +105,6 @@ I'm an MCA graduate and developer from Kerala, India, interested in building use
 
 [Portfolio](https://saranghaeyong.github.io/OPEN-PORTFOLIO/) · [GitHub @saranghaeyong](https://github.com/saranghaeyong)
 
-### // special appearance
-
-<p align="center">
-  <img src="./assets/deadpool.svg" alt="Deadpool-inspired masked mercenary SVG character" width="78%" />
-</p>
-
 <p align="center">
   <i>Thanks for visiting — build, create, explore.</i>
 </p>
