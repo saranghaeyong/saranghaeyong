@@ -92,15 +92,6 @@ Here are some of my key public repositories showcasing different areas of softwa
 
 </div>
 
-<p align="center">
-  <img height="190" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=saranghaeyong&theme=tokyo-night" alt="GitHub Stats Card" />
-  <img height="190" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=saranghaeyong&theme=tokyo-night" alt="Top Languages Card" />
-</p>
-
-<p align="center">
-  <img height="190" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=saranghaeyong&theme=tokyo-night" alt="Productive Time Card" />
-</p>
-
 ---
 
 ## 🔭 // currently exploring
