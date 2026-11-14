@@ -84,15 +84,19 @@ Here are some of my key public repositories showcasing different areas of softwa
 
 ---
 
-## 📊 // github statistics
+## 📈 // contribution activity
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=saranghaeyong&show_icons=true&theme=transparent&bg_color=050505&title_color=FF526B&icon_color=FF1744&text_color=E5E7EB&hide_border=true" alt="GitHub Stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saranghaeyong&layout=compact&theme=transparent&bg_color=050505&title_color=FF526B&text_color=E5E7EB&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=saranghaeyong&theme=transparent&background=050505&ring=FF1744&fire=FF1744&currStreakNum=FFFFFF&side_text=E5E7EB&nums=FFFFFF&hide_border=true" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=saranghaeyong&theme=tokyo-night&bg_color=050505&color=FF1744&line=FF526B&point=FFFFFF&hide_border=true" alt="Activity Graph" width="100%" />
+  <img height="190" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=saranghaeyong&theme=tokyo-night" alt="GitHub Stats Card" />
+  <img height="190" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=saranghaeyong&theme=tokyo-night" alt="Top Languages Card" />
+</p>
+
+<p align="center">
+  <img height="190" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=saranghaeyong&theme=tokyo-night" alt="Productive Time Card" />
 </p>
 
 ---
