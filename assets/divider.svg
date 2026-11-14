@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="50" viewBox="0 0 1200 50">
+  <defs>
+    <linearGradient id="divGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF1744" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#FF1744" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#FF1744" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FF1744" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; filter: drop-shadow(0 0 8px #FF1744); }
+    }
+    .line-glow { animation: pulseGlow 3s ease-in-out infinite; }
+  </style>
+  <line x1="100" y1="25" x2="1100" y2="25" stroke="url(#divGrad)" stroke-width="2" class="line-glow"/>
+  <circle cx="600" cy="25" r="4" fill="#FFFFFF" class="line-glow"/>
+  <polygon points="595,20 605,25 595,30" fill="#FF1744"/>
+</svg>

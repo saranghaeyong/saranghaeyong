@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080305"/>
+      <stop offset="100%" stop-color="#030204"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF1744" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#9C27B0" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#FF1744" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .terminal-text { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 14px; }
+    .keyword { fill: #FF526B; font-weight: bold; }
+    .string { fill: #34D399; }
+    .variable { fill: #60A5FA; }
+    .comment { fill: #6B7280; font-style: italic; }
+    .number { fill: #FBBF24; }
+    .plain { fill: #E5E7EB; }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .cursor { animation: blink 1s infinite; fill: #FF1744; }
+  </style>
+
+  <!-- Terminal Window Background -->
+  <rect width="1200" height="280" rx="16" fill="url(#termBg)" stroke="url(#borderGrad)" stroke-width="1.5"/>
+
+  <!-- Titlebar -->
+  <path d="M0 16C0 7.16344 7.16344 0 16 0H1184C1192.84 0 1200 7.16344 1200 16V40H0V16Z" fill="#12060A"/>
+  <circle cx="28" cy="20" r="6" fill="#FF1744"/>
+  <circle cx="48" cy="20" r="6" fill="#FBBF24"/>
+  <circle cx="68" cy="20" r="6" fill="#34D399"/>
+  <text x="600" y="24" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#9CA3AF" letter-spacing="1">~/saranghaeyong/profile.config.ts — zsh — 80x24</text>
+
+  <!-- Terminal Code Content -->
+  <g transform="translate(36, 70)" class="terminal-text">
+    <text x="0" y="0"><span class="comment">// Professional Developer Profile &amp; Core Configuration</span></text>
+    <text x="0" y="26"><span class="keyword">const</span> <span class="variable">developer</span> = {</text>
+    <text x="24" y="52"><span class="plain">name:</span> <span class="string">"Sarang R N"</span>,</text>
+    <text x="24" y="78"><span class="plain">role:</span> <span class="string">"Software Developer &amp; MCA Graduate"</span>,</text>
+    <text x="24" y="104"><span class="plain">location:</span> <span class="string">"Kerala, India"</span>,</text>
+    <text x="24" y="130"><span class="plain">stack:</span> <span class="plain">[</span><span class="string">"Python"</span>, <span class="string">"TypeScript"</span>, <span class="string">"Kotlin"</span>, <span class="string">"React"</span>, <span class="string">"Linux"</span><span class="plain">]</span>,</text>
+    <text x="24" y="156"><span class="plain">focus:</span> <span class="string">"Building open-source tools &amp; minimalist TV/desktop launchers"</span>,</text>
+    <text x="24" y="182"><span class="plain">status:</span> <span class="string">"Available for impactful collaborations &amp; engineering roles"</span></text>
+    <text x="0" y="208">};</text>
+    <text x="0" y="234"><span class="keyword">export default</span> <span class="variable">developer</span>;<tspan class="cursor">_</tspan></text>
+  </g>
+</svg>
