@@ -9,7 +9,7 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=saranghaeyong&label=Profile%20Views&color=FF1744&style=for-the-badge" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/saranghaeyong?label=Followers&color=FF526B&style=for-the-badge&logo=github&logoColor=white" alt="GitHub Followers" />
-  <a href="https://saranghaeyong.github.io/OPEN-PORTFOLIO/"><img src="https://img.shields.io/badge/Live_Portfolio-FF1744?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio Website" /></a>
+  <a href="https://pbgm.vercel.app/"><img src="https://img.shields.io/badge/pbgm.vercel.app-FF1744?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio Website" /></a>
 </p>
 
 ---
@@ -20,7 +20,7 @@ I'm an **MCA Graduate** and software developer based in **Kerala, India**. I spe
 
 - 📍 **Location:** Ernakulam, Kerala, India
 - 🎓 **Education:** Master of Computer Applications (MCA)
-- 🌐 **Portfolio:** [saranghaeyong.github.io/OPEN-PORTFOLIO](https://saranghaeyong.github.io/OPEN-PORTFOLIO/)
+- 🌐 **Portfolio:** [pbgm.vercel.app](https://pbgm.vercel.app/)
 - 💡 **Philosophy:** Build with purpose, design with precision, explore continuously.
 
 ---
@@ -114,7 +114,7 @@ Here are some of my key public repositories showcasing different areas of softwa
 ## 📬 // connect with me
 
 <p align="center">
-  <a href="https://saranghaeyong.github.io/OPEN-PORTFOLIO/"><img src="https://img.shields.io/badge/Website-FF1744?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://pbgm.vercel.app/"><img src="https://img.shields.io/badge/pbgm.vercel.app-FF1744?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio Website" /></a>
   <a href="https://github.com/saranghaeyong"><img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
