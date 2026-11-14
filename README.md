@@ -86,9 +86,11 @@ Here are some of my key public repositories showcasing different areas of softwa
 
 ## 📈 // contribution activity
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=saranghaeyong&theme=transparent&background=050505&ring=FF1744&fire=FF1744&currStreakNum=FFFFFF&side_text=E5E7EB&nums=FFFFFF&hide_border=true" alt="GitHub Streak" />
-</p>
+<div align="center">
+
+![GitHub Streak](https://v0-git-hub-streak-score-card-phi.vercel.app/api/card-with-avatar?username=saranghaeyong&theme=%7B%22backgroundColor%22%3A%22%231a1b27%22%2C%22textColor%22%3A%22%23ffffff%22%2C%22accentColor%22%3A%22%2300d4aa%22%2C%22borderColor%22%3A%22%2330363d%22%2C%22waterColor%22%3A%22%2300d4aa%22%2C%22streakColor%22%3A%22%23ff6b6b%22%7D)
+
+</div>
 
 <p align="center">
   <img height="190" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=saranghaeyong&theme=tokyo-night" alt="GitHub Stats Card" />
