@@ -94,7 +94,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
   <rect x="48" y="300" width="1184" height="56" rx="12" fill="rgba(226,56,63,.04)" stroke="#e2383f" stroke-opacity=".15"/>
   <text x="80" y="324" font-size="12" fill="#6b7280">46</text><text x="100" y="324" font-size="12" fill="#e2383f" font-weight="bold">repositories</text>
   <text x="200" y="324" font-size="12" fill="#6b7280">·</text>
-  <text x="230" y="324" font-size="12" fill="#6b7280">21</text><text x="250" y="324" font-size="12" fill="#fde047" font-weight="bold">stars earned</text>
+  <text x="230" y="324" font-size="12" fill="#6b7280">0</text><text x="250" y="324" font-size="12" fill="#fde047" font-weight="bold">stars earned</text>
   <text x="700" y="324" font-size="12" fill="#6b7280">·</text>
   <text x="730" y="324" font-size="12" fill="#6b7280">Open to collab</text>
   <circle cx="1140" cy="328" r="4" fill="#4ade80" opacity=".8">

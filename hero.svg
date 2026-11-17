@@ -128,7 +128,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 </g>
 <g class="pc" style="animation-delay:3s">
   <rect x="172" y="330" width="110" height="50" rx="10" fill="rgba(255,255,255,.03)" stroke="#2a2a2a"/>
-  <text x="188" y="358" font-size="22" font-weight="bold" fill="#ff6b6b">21</text>
+  <text x="188" y="358" font-size="22" font-weight="bold" fill="#ff6b6b">0</text>
   <text x="188" y="374" font-size="9" fill="#6b7280" letter-spacing="1.2">STARS</text>
 </g>
 <g class="pc" style="animation-delay:3.2s">
