@@ -154,65 +154,21 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 <circle class="rp" cx="200" cy="510" r="1.1" fill="#ff9999" style="animation-duration:7s;animation-delay:.8s"/>
 <circle class="rp" cx="560" cy="480" r="1.4" fill="#e2383f" style="animation-duration:5.8s;animation-delay:3.2s"/>
 
-<!-- Animated Deadpool-inspired full-body character -->
-<g transform="translate(1110 330)" class="fl" filter="url(#glowSm)">
-  <!-- soft floor shadow -->
-  <ellipse cx="0" cy="160" rx="78" ry="10" fill="#000" opacity=".55"/>
-  <!-- crossed katana handles behind the shoulders -->
-  <g opacity=".9">
-    <path d="M-28 -75 L-93 -174" stroke="#b8bec8" stroke-width="7" stroke-linecap="round"/>
-    <path d="M-34 -82 L-99 -181" stroke="#e6edf3" stroke-width="2"/>
-    <path d="M-95 -177 L-110 -192" stroke="#e2383f" stroke-width="10" stroke-linecap="round"/>
-    <path d="M28 -75 L93 -174" stroke="#b8bec8" stroke-width="7" stroke-linecap="round"/>
-    <path d="M34 -82 L99 -181" stroke="#e6edf3" stroke-width="2"/>
-    <path d="M95 -177 L110 -192" stroke="#e2383f" stroke-width="10" stroke-linecap="round"/>
-  </g>
-  <!-- legs -->
-  <path d="M-38 72 L-48 139 Q-50 151 -37 155 L-10 155 Q1 151 -4 139 L2 78Z" fill="#9f172b" stroke="#e2383f" stroke-width="3"/>
-  <path d="M8 78 L4 139 Q1 151 14 155 L42 155 Q54 151 48 139 L39 72Z" fill="#9f172b" stroke="#e2383f" stroke-width="3"/>
-  <path d="M-49 140 Q-29 132 -5 145 L-4 157 L-53 157 Q-62 150 -49 140Z" fill="#171717" stroke="#555" stroke-width="2"/>
-  <path d="M5 145 Q28 132 49 140 Q62 150 53 157 L4 157Z" fill="#171717" stroke="#555" stroke-width="2"/>
-  <!-- torso -->
-  <path d="M-48 -54 Q-65 -43 -60 13 L-48 83 Q0 101 48 83 L60 13 Q65 -43 48 -54 Q0 -72 -48 -54Z" fill="#c51f35" stroke="#f04452" stroke-width="3"/>
-  <path d="M-43 -45 L-10 75 L8 75 L-19 -48Z" fill="#171717" opacity=".9"/>
-  <path d="M43 -45 L10 75 L-8 75 L19 -48Z" fill="#171717" opacity=".9"/>
-  <path d="M-42 8 Q0 25 42 8 L45 24 Q0 42 -45 24Z" fill="#191919" stroke="#555" stroke-width="2"/>
-  <rect x="-18" y="14" width="36" height="23" rx="5" fill="#d8b45a" stroke="#f4d47a" stroke-width="2"/>
-  <path d="M-8 20 H8 V31 H-8Z" fill="#252525"/>
-  <!-- arms -->
-  <path d="M-50 -42 Q-78 -32 -91 8 L-81 31 Q-69 36 -61 19 L-37 -12Z" fill="#bd1e33" stroke="#f04452" stroke-width="3"/>
-  <path d="M50 -42 Q78 -32 91 8 L81 31 Q69 36 61 19 L37 -12Z" fill="#bd1e33" stroke="#f04452" stroke-width="3"/>
-  <path d="M-91 8 Q-103 23 -88 39 L-73 42 Q-61 34 -70 20Z" fill="#171717" stroke="#555" stroke-width="2"/>
-  <path d="M91 8 Q103 23 88 39 L73 42 Q61 34 70 20Z" fill="#171717" stroke="#555" stroke-width="2"/>
-  <!-- shoulder straps and small red accents -->
-  <path d="M-48 -42 L-30 -27 M48 -42 L30 -27" stroke="#111" stroke-width="8" stroke-linecap="round"/>
-  <circle cx="-49" cy="-35" r="7" fill="#242424" stroke="#e2383f" stroke-width="2"/>
-  <circle cx="49" cy="-35" r="7" fill="#242424" stroke="#e2383f" stroke-width="2"/>
-  <!-- head and mask -->
-  <path d="M-57 -124 Q-57 -181 0 -185 Q57 -181 57 -124 L48 -76 Q31 -47 0 -42 Q-31 -47 -48 -76Z" fill="#d9233d" stroke="#f34a58" stroke-width="3"/>
-  <path d="M-55 -135 Q-48 -174 -17 -178 L-8 -112 Q-26 -95 -49 -91Z" fill="#171717"/>
-  <path d="M55 -135 Q48 -174 17 -178 L8 -112 Q26 -95 49 -91Z" fill="#171717"/>
-  <path d="M-48 -91 Q-30 -105 -8 -112 L-12 -62 Q-35 -65 -48 -91Z" fill="#171717"/>
-  <path d="M48 -91 Q30 -105 8 -112 L12 -62 Q35 -65 48 -91Z" fill="#171717"/>
-  <!-- expressive white eyes -->
-  <path d="M-43 -130 Q-27 -148 -9 -132 L-14 -111 Q-30 -104 -43 -130Z" fill="#f7f7f7" stroke="#090909" stroke-width="3"/>
-  <path d="M43 -130 Q27 -148 9 -132 L14 -111 Q30 -104 43 -130Z" fill="#f7f7f7" stroke="#090909" stroke-width="3"/>
-  <path d="M-31 -128 L-17 -126 M17 -126 L31 -128" stroke="#fff" stroke-width="2" opacity=".7"/>
-  <!-- mask seam and highlights -->
-  <path d="M0 -176 Q-5 -130 0 -73" fill="none" stroke="#ff7180" stroke-width="1.5" opacity=".65"/>
-  <path d="M-48 -151 Q-39 -169 -24 -172 M48 -151 Q39 -169 24 -172" fill="none" stroke="#ff8792" stroke-width="2" opacity=".6"/>
-  <!-- tiny animated eye glint -->
-  <circle cx="-25" cy="-130" r="2.5" fill="#fff">
-    <animate attributeName="opacity" values=".3;1;.3" dur="2.4s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="25" cy="-130" r="2.5" fill="#fff">
-    <animate attributeName="opacity" values="1;.3;1" dur="2.4s" repeatCount="indefinite"/>
-  </circle>
-  <!-- belt pouches -->
-  <rect x="-48" y="31" width="16" height="19" rx="3" fill="#242424" stroke="#555"/>
-  <rect x="32" y="31" width="16" height="19" rx="3" fill="#242424" stroke="#555"/>
-  <!-- sword sparkle -->
-  <path d="M-105 -198 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4Z" fill="#fff" opacity=".85" class="pu"/>
+<!-- Right side: stylized Deadpool mask icon -->
+<g transform="translate(1020, 200)" class="fl" opacity=".9">
+  <!-- Outer shield shape -->
+  <ellipse cx="0" cy="0" rx="120" ry="140" fill="none" stroke="#e2383f" stroke-width="1.5" opacity=".25"/>
+  <!-- Mask left eye -->
+  <path d="M-90 -30 Q-60 -80 -20 -50 Q0 -30 -10 20 Q-30 60 -70 40 Q-100 20 -90 -30Z" fill="#1a1a1a" stroke="#e2383f" stroke-width="2"/>
+  <path d="M-85 -25 Q-55 -70 -20 -48 Q0 -30 -8 18 Q-26 55 -65 38 Q-95 20 -85 -25Z" fill="rgba(226,56,63,.12)"/>
+  <!-- Mask right eye -->
+  <path d="M20 -50 Q60 -80 90 -30 Q100 20 70 40 Q30 60 10 20 Q0 -30 20 -50Z" fill="#1a1a1a" stroke="#e2383f" stroke-width="2"/>
+  <path d="M22 -48 Q55 -70 85 -25 Q95 20 68 38 Q35 58 8 18 Q-2 -30 22 -48Z" fill="rgba(226,56,63,.12)"/>
+  <!-- Center line -->
+  <line x1="0" y1="-70" x2="0" y2="80" stroke="#e2383f" stroke-width="1" opacity=".3"/>
+  <!-- Mouth lines -->
+  <path d="M-40 50 Q0 70 40 50" fill="none" stroke="#e2383f" stroke-width="1.5" opacity=".4"/>
+  <path d="M-30 60 Q0 78 30 60" fill="none" stroke="#e2383f" stroke-width="1" opacity=".25"/>
 </g>
 
 <!-- Code snippet card on the right -->
