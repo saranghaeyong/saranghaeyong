@@ -25,26 +25,6 @@
 
 </div>
 
----
-
-## 🔥 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=saranghaeyong&show_icons=true&theme=red&hide_border=true&border_radius=8" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saranghaeyong&layout=compact&theme=red&hide_border=true&border_radius=8&langs_count=6" alt="Top Languages"/>
-</p>
-
----
-
-## 🏆 Contribution Graph
-
-*My commit activity visualised — updated daily by GitHub Actions.*
-
-<p align="center">
-  <a href="https://github.com/saranghaeyong"><img src="https://raw.githubusercontent.com/saranghaeyong/saranghaeyong/output/github-snake.svg" alt="Contribution Snake" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'"/><span style="display:none;color:#6b7280;font-size:13px;">Contribution graph unavailable — check back later.</span></a>
-</p>
-
----
 
 ## 📌 Featured Projects
 
