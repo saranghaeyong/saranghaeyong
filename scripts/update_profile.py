@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 """Refresh only the existing numeric GitHub profile stats in the SVG artwork."""
 import json
-import os
 import re
 import urllib.request
 
 OWNER = "saranghaeyong"
 API = "https://api.github.com"
-TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
 def api_get(url):
     headers = {
@@ -15,16 +13,14 @@ def api_get(url):
         "X-GitHub-Api-Version": "2022-11-28",
         "User-Agent": "saranghaeyong-profile-updater",
     }
-    if TOKEN:
-        headers["Authorization"] = f"Bearer {TOKEN}"
     request = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(request, timeout=30) as response:
         return json.load(response)
 
 def replace_text(svg, x, y, value):
     pattern = re.compile(
-        rf'(<text\\b(?=[^>]*\\bx="{re.escape(str(x))}")'
-        rf'(?=[^>]*\\by="{re.escape(str(y))}")[^>]*>).*?(</text>)',
+        rf'(<text\b(?=[^>]*\bx="{re.escape(str(x))}")'
+        rf'(?=[^>]*\by="{re.escape(str(y))}")[^>]*>).*?(</text>)',
         re.DOTALL,
     )
     updated, count = pattern.subn(lambda m: m.group(1) + str(value) + m.group(2), svg, count=1)
@@ -40,7 +36,7 @@ def main():
         batch = api_get(f"{API}/users/{OWNER}/repos?type=owner&per_page=100&page={page}")
         if not batch:
             break
-        repositories.extend(batch)
+        repositories.extend(repositories_item for repositories_item in batch if not repositories_item.get("private", False))
         page += 1
 
     public_repo_count = len(repositories)
