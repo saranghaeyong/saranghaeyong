@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 440" width="1280" height="440" role="img" aria-label="Projects showcase">
+<title>Projects — Deadpool Developer</title>
+<defs>
+<style type="text/css"><![CDATA[
+text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes rowIn{from{opacity:0;transform:translateX(-12px)}to{opacity:1;transform:translateX(0)}}
+.row{opacity:0;animation:rowIn .55s cubic-bezier(.2,.8,.3,1) forwards}
+.fi{animation:fadeIn .5s ease forwards}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;opacity:1!important;transform:none!important}}
+]]></style>
+<linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0%" stop-color="#141414"/>
+  <stop offset="100%" stop-color="#0e0e0e"/>
+</linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#e2383f"/>
+  <stop offset="100%" stop-color="#c41e3a"/>
+</linearGradient>
+<linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#e2383f" stop-opacity=".4"/>
+  <stop offset="100%" stop-color="#2a2a2a" stop-opacity=".15"/>
+</linearGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+  <circle cx="12" cy="12" r=".7" fill="rgba(226,56,63,.05)"/>
+</pattern>
+</defs>
+
+<rect width="1280" height="440" rx="22" fill="url(#panel)"/>
+<rect width="1280" height="440" rx="22" fill="url(#dots)"/>
+<rect x=".75" y=".75" width="1278.5" height="438.5" rx="21.25" fill="none" stroke="url(#border)" stroke-width="1.5"/>
+
+<!-- Header -->
+<g class="fi" style="animation-delay:.1s">
+  <rect x="48" y="40" width="4" height="28" rx="2" fill="url(#accent)"/>
+  <text x="64" y="62" font-size="12" fill="#e2383f" font-weight="bold" letter-spacing="2.5">// MISSIONS</text>
+  <text x="64" y="96" font-size="32" fill="#f0f0f0" font-weight="bold" letter-spacing="-.5">Featured Projects</text>
+  <text x="64" y="122" font-size="15" fill="#6b7280">Builds that speak louder than words</text>
+</g>
+
+<!-- Featured Projects: SRNTV-Launcher · 3d-portfolio · OPEN-PORTFOLIO -->
+<!-- Card 1: SRNTV-Launcher -->
+<g class="row" style="animation-delay:.3s">
+  <rect x="48" y="148" width="380" height="120" rx="14" fill="rgba(255,255,255,.02)" stroke="#2a2a2a"/>
+  <rect x="48" y="148" width="4" height="120" rx="2" fill="#e2383f"/>
+  <text x="72" y="180" font-size="11" fill="#e2383f" font-weight="bold" letter-spacing="1.5">PROJECT 01</text>
+  <text x="72" y="210" font-size="20" fill="#f0f0f0" font-weight="bold">SRNTV-Launcher</text>
+  <text x="72" y="234" font-size="12.5" fill="#6b7280">Minimalist Android TV home screen with pure black interface and fluid D‑pad navigation.</text>
+  <text x="72" y="256" font-size="11" fill="#4a4a4a">
+    <tspan fill="#a8b9cc">Kotlin</tspan>
+    <tspan fill="#6b7280"> · </tspan>
+    <tspan fill="#a8b9cc">Android TV</tspan>
+  </text>
+  <text x="380" y="180" text-anchor="end" font-size="14" fill="#fde047">⭐ 0</text>
+  <text x="380" y="256" text-anchor="end" font-size="11" fill="#e2383f" font-weight="bold">VIEW PROJECT →</text>
+</g>
+
+<!-- Card 2: 3d-portfolio -->
+<g class="row" style="animation-delay:.45s">
+  <rect x="460" y="148" width="380" height="120" rx="14" fill="rgba(255,255,255,.02)" stroke="#2a2a2a"/>
+  <rect x="460" y="148" width="4" height="120" rx="2" fill="#ff6b6b"/>
+  <text x="484" y="180" font-size="11" fill="#ff6b6b" font-weight="bold" letter-spacing="1.5">PROJECT 02</text>
+  <text x="484" y="210" font-size="20" fill="#f0f0f0" font-weight="bold">3d-portfolio</text>
+  <text x="484" y="234" font-size="12.5" fill="#6b7280">Interactive 3D portfolio designed as a virtual desktop with windows and animations.</text>
+  <text x="484" y="256" font-size="11" fill="#4a4a4a">
+    <tspan fill="#5ca4e6">TypeScript</tspan>
+    <tspan fill="#6b7280"> · </tspan>
+    <tspan fill="#61dafb">React</tspan>
+    <tspan fill="#6b7280"> · </tspan>
+    <tspan fill="#87bc23">Three.js</tspan>
+  </text>
+  <text x="792" y="180" text-anchor="end" font-size="14" fill="#fde047">⭐ 0</text>
+  <text x="792" y="256" text-anchor="end" font-size="11" fill="#ff6b6b" font-weight="bold">VIEW PROJECT →</text>
+</g>
+
+<!-- Card 3: OPEN-PORTFOLIO -->
+<g class="row" style="animation-delay:.6s">
+  <rect x="872" y="148" width="360" height="120" rx="14" fill="rgba(255,255,255,.02)" stroke="#2a2a2a"/>
+  <rect x="872" y="148" width="4" height="120" rx="2" fill="#4ade80"/>
+  <text x="896" y="180" font-size="11" fill="#4ade80" font-weight="bold" letter-spacing="1.5">PROJECT 03</text>
+  <text x="896" y="210" font-size="20" fill="#f0f0f0" font-weight="bold">OPEN-PORTFOLIO</text>
+  <text x="896" y="234" font-size="12.5" fill="#6b7280">Personal developer portfolio showcasing projects, skills, and software experiments.</text>
+  <text x="896" y="256" font-size="11" fill="#4a4a4a">
+    <tspan fill="#5ca4e6">TypeScript</tspan>
+    <tspan fill="#6b7280"> · </tspan>
+    <tspan fill="#4ecdc4">Tailwind CSS</tspan>
+  </text>
+  <text x="1208" y="180" text-anchor="end" font-size="14" fill="#fde047">⭐ 0</text>
+  <text x="1208" y="256" text-anchor="end" font-size="11" fill="#4ade80" font-weight="bold">VIEW PROJECT →</text>
+</g>
+
+<!-- Bottom stats bar -->
+<g class="fi" style="animation-delay:.8s">
+  <rect x="48" y="300" width="1184" height="56" rx="12" fill="rgba(226,56,63,.04)" stroke="#e2383f" stroke-opacity=".15"/>
+  <text x="80" y="324" font-size="12" fill="#6b7280">46</text><text x="100" y="324" font-size="12" fill="#e2383f" font-weight="bold">repositories</text>
+  <text x="200" y="324" font-size="12" fill="#6b7280">·</text>
+  <text x="230" y="324" font-size="12" fill="#6b7280">21</text><text x="250" y="324" font-size="12" fill="#fde047" font-weight="bold">stars earned</text>
+  <text x="700" y="324" font-size="12" fill="#6b7280">·</text>
+  <text x="730" y="324" font-size="12" fill="#6b7280">Open to collab</text>
+  <circle cx="1140" cy="328" r="4" fill="#4ade80" opacity=".8">
+    <animate attributeName="opacity" values="1;.2;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</g>
+
+<!-- Call to action -->
+<g class="fi" style="animation-delay:1s">
+  <text x="640" y="400" text-anchor="middle" font-size="14" fill="#6b7280">
+    <tspan fill="#e2383f">→ </tspan>
+    <tspan fill="#f0f0f0">See all repositories:</tspan>
+    <tspan fill="#e2383f" font-weight="bold"> github.com/saranghaeyong</tspan>
+  </text>
+</g>
+
+<!-- Decorative Deadpool accent -->
+<g transform="translate(1230, 410)" opacity=".12">
+  <path d="M0 -18 Q12 -30 24 -18 Q30 -6 24 12 Q12 24 0 18 Q-12 24 -24 12 Q-30 -6 -24 -18 Q-12 -30 0 -18Z" fill="none" stroke="#e2383f" stroke-width="1.5"/>
+</g>
+</svg>

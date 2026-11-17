@@ -1,0 +1,122 @@
+# ──────────────────────────────────────────────
+#  Deadpool Developer Profile — Editable Data
+#  All verified fields are populated from the
+#  original README (backup/original-profile-readme).
+#  Fields still marked TODO are genuinely unknown.
+# ──────────────────────────────────────────────
+
+github_username: saranghaeyong
+display_name: Sarang RN
+headline: MCA Graduate · Aspiring Software Developer
+location: Ernakulam, Kerala, India
+
+# Education
+education_degree: MCA
+education_college: TODO              # College / University name — not found in original README
+education_year: TODO                 # Graduation year — not found in original README
+
+# Career
+career_level: Fresher
+job_interest: IT / Software Development roles, preferably in Kerala, India
+
+# Programming Languages (from original README)
+languages:
+  - name: Python
+    color: "#3572A5"
+  - name: TypeScript
+    color: "#3178c6"
+  - name: JavaScript
+    color: "#f1e05a"
+  - name: Java
+    color: "#b07219"
+  - name: PHP
+    color: "#4F5D95"
+  - name: C++
+    color: "#f34b7d"
+  - name: Kotlin
+    color: "#A97BFF"
+  - name: SQL
+    color: "#4479a1"
+
+# Technical Skills (from original README)
+skills:
+  - name: React
+    color: "#61dafb"
+  - name: Next.js
+    color: "#000000"
+  - name: Node.js
+    color: "#339933"
+  - name: Django
+    color: "#092e20"
+  - name: Flask
+    color: "#000000"
+  - name: Three.js
+    color: "#050505"
+  - name: Git
+    color: "#f05032"
+  - name: GitHub
+    color: "#ffffff"
+  - name: PostgreSQL
+    color: "#336791"
+  - name: MySQL
+    color: "#4479a1"
+  - name: MongoDB
+    color: "#47A248"
+  - name: SQLite
+    color: "#003b57"
+  - name: REST APIs
+    color: "#ff6b6b"
+  - name: AWS
+    color: "#ff9900"
+  - name: Linux
+    color: "#fcc624"
+  - name: VS Code
+    color: "#007acc"
+
+# Frameworks & Libraries (from original README)
+frameworks:
+  - Bootstrap
+  - Tailwind CSS
+  - Express.js
+
+# Tools (from original README)
+tools:
+  - VS Code
+  - Chrome DevTools
+  - Postman
+  - Figma
+
+# Projects — from original README featured projects section
+projects:
+  - name: SRNTV-Launcher
+    url: https://github.com/saranghaeyong/SRNTV-Launcher
+    description: Minimalist Android TV home screen with pure black interface, crimson accents, and fluid D-pad navigation.
+    stars: 0
+    tech: ["Kotlin", "Android TV"]
+  - name: 3d-portfolio
+    url: https://github.com/saranghaeyong/3d-portfolio
+    description: Interactive 3D portfolio designed as a virtual desktop experience with windows and animations.
+    stars: 0
+    tech: ["TypeScript", "Three.js", "React"]
+  - name: OPEN-PORTFOLIO
+    url: https://github.com/saranghaeyong/OPEN-PORTFOLIO
+    description: Personal developer portfolio showcasing projects, technical skills, and software experiments.
+    stars: 0
+    tech: ["TypeScript", "Tailwind CSS"]
+  - name: sarangify
+    url: https://github.com/saranghaeyong/sarangify
+    description: Android application built for streaming music seamlessly from YouTube Music.
+    stars: 0
+    tech: ["Kotlin", "Android"]
+  - name: headphone
+    url: https://github.com/saranghaeyong/headphone
+    description: Immersive interactive product showcase featuring custom audio gear concepts.
+    stars: 0
+    tech: ["TypeScript", "Tailwind CSS"]
+
+# Contact & Social
+email: TODO                          # Not publicly listed on GitHub profile
+linkedin: TODO                       # Not found in original README
+portfolio: https://pbgm.vercel.app/
+twitter: TODO                        # Not found — account may not exist
+instagram: TODO                      # Not found — optional

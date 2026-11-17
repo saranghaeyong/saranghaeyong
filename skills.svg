@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 520" width="1280" height="520" role="img" aria-label="Technical Skills showcase">
+<title>Skills Arsenal — Deadpool Developer</title>
+<defs>
+<style type="text/css"><![CDATA[
+text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes chipPop{0%{opacity:0;transform:scale(.85) translateY(8px)}70%{opacity:1;transform:scale(1.03) translateY(-2px)}100%{opacity:1;transform:scale(1) translateY(0)}}
+.chip{opacity:0;animation:chipPop .55s cubic-bezier(.2,.8,.3,1.2) forwards}
+.fi{animation:fadeIn .5s ease forwards}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;opacity:1!important;transform:none!important}}
+]]></style>
+<linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0%" stop-color="#141414"/>
+  <stop offset="100%" stop-color="#0e0e0e"/>
+</linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#e2383f"/>
+  <stop offset="100%" stop-color="#c41e3a"/>
+</linearGradient>
+<linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#e2383f" stop-opacity=".4"/>
+  <stop offset="100%" stop-color="#2a2a2a" stop-opacity=".15"/>
+</linearGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+  <circle cx="12" cy="12" r=".7" fill="rgba(226,56,63,.05)"/>
+</pattern>
+<filter id="glow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+
+<rect width="1280" height="520" rx="22" fill="url(#panel)"/>
+<rect width="1280" height="520" rx="22" fill="url(#dots)"/>
+<rect x=".75" y=".75" width="1278.5" height="518.5" rx="21.25" fill="none" stroke="url(#border)" stroke-width="1.5"/>
+
+<!-- Header -->
+<g class="fi" style="animation-delay:.1s">
+  <rect x="48" y="40" width="4" height="28" rx="2" fill="url(#accent)"/>
+  <text x="64" y="62" font-size="12" fill="#e2383f" font-weight="bold" letter-spacing="2.5">// ARSENAL</text>
+  <text x="64" y="96" font-size="32" fill="#f0f0f0" font-weight="bold" letter-spacing="-.5">Weapons of Choice</text>
+  <text x="64" y="122" font-size="15" fill="#6b7280">Technologies I wield daily</text>
+  <text x="1216" y="62" font-size="11" fill="#4a4a4a" text-anchor="end" letter-spacing="1.5">10+ SKILLS MASTERED</text>
+</g>
+
+<!-- ── Programming Languages ── -->
+<g class="fi" style="animation-delay:.2s">
+  <rect x="48" y="148" width="130" height="28" rx="8" fill="rgba(226,56,63,.1)" stroke="#e2383f" stroke-opacity=".3"/>
+  <text x="113" y="168" text-anchor="middle" font-size="11" fill="#e2383f" font-weight="bold" letter-spacing="1.5">LANGUAGES</text>
+</g>
+
+<g class="chip" style="animation-delay:.35s"><rect x="48" y="190" width="130" height="48" rx="10" fill="rgba(241,224,90,.06)" stroke="#f1e05a" stroke-opacity=".3"/><text x="113" y="212" text-anchor="middle" font-size="12" fill="#f1e05a" font-weight="bold">JavaScript</text><text x="113" y="230" text-anchor="middle" font-size="10" fill="#6b7280">ES6+</text></g>
+<g class="chip" style="animation-delay:.45s"><rect x="192" y="190" width="130" height="48" rx="10" fill="rgba(49,120,198,.06)" stroke="#3178c6" stroke-opacity=".3"/><text x="257" y="212" text-anchor="middle" font-size="12" fill="#5ca4e6" font-weight="bold">TypeScript</text><text x="257" y="230" text-anchor="middle" font-size="10" fill="#6b7280">Strict mode</text></g>
+<g class="chip" style="animation-delay:.55s"><rect x="336" y="190" width="130" height="48" rx="10" fill="rgba(227,79,38,.06)" stroke="#e34f26" stroke-opacity=".3"/><text x="401" y="212" text-anchor="middle" font-size="12" fill="#e34f26" font-weight="bold">HTML5</text><text x="401" y="230" text-anchor="middle" font-size="10" fill="#6b7280">Semantic</text></g>
+<g class="chip" style="animation-delay:.65s"><rect x="480" y="190" width="130" height="48" rx="10" fill="rgba(86,61,124,.08)" stroke="#8b5cf6" stroke-opacity=".3"/><text x="545" y="212" text-anchor="middle" font-size="12" fill="#a78bfa" font-weight="bold">CSS3</text><text x="545" y="230" text-anchor="middle" font-size="10" fill="#6b7280">Flexbox/Grid</text></g>
+<g class="chip" style="animation-delay:.75s"><rect x="624" y="190" width="130" height="48" rx="10" fill="rgba(68,121,161,.06)" stroke="#4479a1" stroke-opacity=".3"/><text x="689" y="212" text-anchor="middle" font-size="12" fill="#7db8e8" font-weight="bold">SQL</text><text x="689" y="230" text-anchor="middle" font-size="10" fill="#6b7280">PostgreSQL</text></g>
+
+<!-- ── Frameworks & Libraries ── -->
+<g class="fi" style="animation-delay:.8s">
+  <rect x="48" y="266" width="130" height="28" rx="8" fill="rgba(226,56,63,.1)" stroke="#e2383f" stroke-opacity=".3"/>
+  <text x="113" y="286" text-anchor="middle" font-size="11" fill="#e2383f" font-weight="bold" letter-spacing="1.5">FRAMEWORKS</text>
+</g>
+
+<g class="chip" style="animation-delay:.9s"><rect x="48" y="306" width="130" height="48" rx="10" fill="rgba(97,218,251,.06)" stroke="#61dafb" stroke-opacity=".3"/><text x="113" y="328" text-anchor="middle" font-size="12" fill="#67e8f9" font-weight="bold">React</text><text x="113" y="346" text-anchor="middle" font-size="10" fill="#6b7280">v18+</text></g>
+<g class="chip" style="animation-delay:1s"><rect x="192" y="306" width="130" height="48" rx="10" fill="rgba(51,153,51,.06)" stroke="#339933" stroke-opacity=".3"/><text x="257" y="328" text-anchor="middle" font-size="12" fill="#4ade80" font-weight="bold">Node.js</text><text x="257" y="346" text-anchor="middle" font-size="10" fill="#6b7280">Express</text></g>
+<g class="chip" style="animation-delay:1.1s"><rect x="336" y="306" width="130" height="48" rx="10" fill="rgba(255,107,107,.06)" stroke="#ff6b6b" stroke-opacity=".3"/><text x="401" y="328" text-anchor="middle" font-size="12" fill="#ff9999" font-weight="bold">Bootstrap</text><text x="401" y="346" text-anchor="middle" font-size="10" fill="#6b7280">v5</text></g>
+<g class="chip" style="animation-delay:1.2s"><rect x="480" y="306" width="130" height="48" rx="10" fill="rgba(0,85,255,.06)" stroke="#0055ff" stroke-opacity=".3"/><text x="545" y="328" text-anchor="middle" font-size="12" fill="#60a5fa" font-weight="bold">Framer Motion</text><text x="545" y="346" text-anchor="middle" font-size="10" fill="#6b7280">Animations</text></g>
+<g class="chip" style="animation-delay:1.3s"><rect x="624" y="306" width="130" height="48" rx="10" fill="rgba(135,188,35,.06)" stroke="#87bc23" stroke-opacity=".3"/><text x="689" y="328" text-anchor="middle" font-size="12" fill="#a3d845" font-weight="bold">GSAP</text><text x="689" y="346" text-anchor="middle" font-size="10" fill="#6b7280">ScrollMagic</text></g>
+
+<!-- ── Tools & Others ── -->
+<g class="fi" style="animation-delay:1.4s">
+  <rect x="48" y="372" width="130" height="28" rx="8" fill="rgba(226,56,63,.1)" stroke="#e2383f" stroke-opacity=".3"/>
+  <text x="113" y="392" text-anchor="middle" font-size="11" fill="#e2383f" font-weight="bold" letter-spacing="1.5">TOOLS</text>
+</g>
+
+<g class="chip" style="animation-delay:1.5s"><rect x="48" y="412" width="110" height="44" rx="9" fill="rgba(240,80,50,.06)" stroke="#f05032" stroke-opacity=".3"/><text x="103" y="430" text-anchor="middle" font-size="11" fill="#f05032" font-weight="bold">Git</text><text x="103" y="446" text-anchor="middle" font-size="9" fill="#6b7280">Version ctrl</text></g>
+<g class="chip" style="animation-delay:1.6s"><rect x="172" y="412" width="110" height="44" rx="9" fill="rgba(255,255,255,.04)" stroke="#ffffff" stroke-opacity=".2"/><text x="217" y="430" text-anchor="middle" font-size="11" fill="#e6edf3" font-weight="bold">GitHub</text><text x="217" y="446" text-anchor="middle" font-size="9" fill="#6b7280">CI/CD</text></g>
+<g class="chip" style="animation-delay:1.7s"><rect x="296" y="412" width="110" height="44" rx="9" fill="rgba(0,0,0,.2)" stroke="#4a4a4a" stroke-opacity=".4"/><text x="341" y="430" text-anchor="middle" font-size="11" fill="#e6edf3" font-weight="bold">VS Code</text><text x="341" y="446" text-anchor="middle" font-size="9" fill="#6b7280">Editor</text></g>
+<g class="chip" style="animation-delay:1.8s"><rect x="420" y="412" width="110" height="44" rx="9" fill="rgba(255,154,0,.06)" stroke="#ff9a00" stroke-opacity=".3"/><text x="465" y="430" text-anchor="middle" font-size="11" fill="#ffb347" font-weight="bold">Postman</text><text x="465" y="446" text-anchor="middle" font-size="9" fill="#6b7280">API Testing</text></g>
+<g class="chip" style="animation-delay:1.9s"><rect x="544" y="412" width="110" height="44" rx="9" fill="rgba(162,89,255,.06)" stroke="#a259ff" stroke-opacity=".3"/><text x="589" y="430" text-anchor="middle" font-size="11" fill="#c084fc" font-weight="bold">Figma</text><text x="589" y="446" text-anchor="middle" font-size="9" fill="#6b7280">Design</text></g>
+<g class="chip" style="animation-delay:2s"><rect x="668" y="412" width="110" height="44" rx="9" fill="rgba(78,222,128,.06)" stroke="#4ade80" stroke-opacity=".3"/><text x="713" y="430" text-anchor="middle" font-size="11" fill="#4ade80" font-weight="bold">Chrome Dev</text><text x="713" y="446" text-anchor="middle" font-size="9" fill="#6b7280">Debugging</text></g>
+
+<!-- Bottom quote -->
+<g class="fi" style="animation-delay:2.2s">
+  <line x1="48" y1="480" x2="1232" y2="480" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="640" y="502" text-anchor="middle" font-size="12" fill="#4a4a4a" letter-spacing="2">“Give me enough leverage and a good IDE and I'll move the whole repo.”</text>
+</g>
+</svg>

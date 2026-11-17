@@ -1,0 +1,39 @@
+name: Update GitHub Stats & Pin Repos
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch top repositories and pin them
+        uses: anmol098/wreadme@latest
+        with:
+          github_username: saranghaeyong
+          readme_path: README.md
+          token: ${{ secrets.GITHUB_TOKEN }}
+          picture: true
+          show_star: true
+          show_description: true
+          repos: saranghaeyong/SRNTV-Launcher,saranghaeyong/3d-portfolio,saranghaeyong/OPEN-PORTFOLIO,saranghaeyong/sarangify,saranghaeyong/headphone
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "saranghaeyong"
+          git config --global user.email "saranghaeyong@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update pinned repos stats [skip ci]" || echo "No changes to commit"
+          git push

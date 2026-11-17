@@ -1,0 +1,34 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Generate snake SVG from contributions
+        uses: Platane/snk@v3
+        with:
+          github_user_name: saranghaeyong
+          outputs: |
+            output/github-snake.svg
+            output/github-snake-dark.svg?palette=github-dark
+          color_snake: e2383f
+          color_dots: #fff, #e2383f, #ff6b6b, #c41e3a
+
+      - name: Commit and push generated SVG
+        run: |
+          git config --global user.name "saranghaeyong"
+          git config --global user.email "saranghaeyong@users.noreply.github.com"
+          git add output/
+          git commit -m "chore: update contribution snake [skip ci]" || echo "No changes to commit"
+          git push

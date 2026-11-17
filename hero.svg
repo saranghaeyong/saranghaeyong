@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" width="1280" height="560" role="img" aria-label="Deadpool Developer Hero Banner">
+<title>Deadpool Developer — Hero Banner</title>
+<defs>
+<style type="text/css"><![CDATA[
+text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes popIn{0%{opacity:0;transform:translateY(14px) scale(.85)}70%{opacity:1;transform:translateY(-3px) scale(1.04)}100%{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes pulseGlow{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes dashDraw{from{stroke-dashoffset:60}to{stroke-dashoffset:0}}
+@keyframes slideIn{from{transform:translateX(-20px);opacity:0}to{transform:translateX(0);opacity:1}}
+@keyframes rise{0%{transform:translateY(0);opacity:0}15%{opacity:.7}85%{opacity:.5}100%{transform:translateY(-100px);opacity:0}}
+.role-anim{animation:roleCycler 12s cubic-bezier(.4,0,.2,1) infinite}
+@keyframes roleCycler{0%{opacity:0;transform:translateY(12px)}5%{opacity:1;transform:translateY(0)}25%{opacity:1;transform:translateY(0)}30%{opacity:0;transform:translateY(-12px)}100%{opacity:0;transform:translateY(-12px)}}
+.fl{animation:floaty 5s ease-in-out infinite}
+.fl2{animation:floaty 6.5s ease-in-out infinite .8s}
+.rp{animation:rise linear infinite}
+.corner{stroke-dasharray:40;animation:dashDraw .6s ease both}
+.blink-cursor{animation:blink 1s step-end infinite}
+.fi{animation:fadeIn .5s ease both}
+.pu{animation:pulseGlow 3s ease-in-out infinite}
+.pc{opacity:0;animation:popIn .6s cubic-bezier(.2,.8,.3,1.2) forwards}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+]]></style>
+<linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#0d0d0d"/>
+  <stop offset="60%" stop-color="#141414"/>
+  <stop offset="100%" stop-color="#0a0a0a"/>
+</linearGradient>
+<linearGradient id="redGrad" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#e2383f"/>
+  <stop offset="50%" stop-color="#ff2929"/>
+  <stop offset="100%" stop-color="#c41e3a"/>
+</linearGradient>
+<linearGradient id="edgeGrad" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#e2383f" stop-opacity=".6"/>
+  <stop offset="50%" stop-color="#2a2a2a" stop-opacity=".3"/>
+  <stop offset="100%" stop-color="#e2383f" stop-opacity=".5"/>
+</linearGradient>
+<linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#e2383f"/>
+  <stop offset="50%" stop-color="#ff4444"/>
+  <stop offset="100%" stop-color="#c41e3a"/>
+</linearGradient>
+<linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#e2383f"/>
+  <stop offset="100%" stop-color="#ff6b6b"/>
+</linearGradient>
+<radialGradient id="redGlow" cx=".4" cy=".5" r=".6">
+  <stop offset="0%" stop-color="#e2383f" stop-opacity=".12"/>
+  <stop offset="100%" stop-color="#e2383f" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="dimGlow" cx=".6" cy=".3" r=".5">
+  <stop offset="0%" stop-color="#2a2a2a" stop-opacity=".15"/>
+  <stop offset="100%" stop-color="#0d0d0d" stop-opacity="0"/>
+</radialGradient>
+<filter id="glowSm"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glowMd"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+  <circle cx="14" cy="14" r=".7" fill="rgba(226,56,63,.07)"/>
+</pattern>
+<clipPath id="termClip"><rect x="48" y="52" width="430" height="22">
+  <animate attributeName="width" from="0" to="430" dur=".8s" begin="0s" fill="freeze"/>
+</rect></clipPath>
+<clipPath id="hiClip"><rect x="48" y="100" width="180" height="36">
+  <animate attributeName="width" from="0" to="180" dur=".5s" begin="1s" fill="freeze"/>
+</rect></clipPath>
+</defs>
+
+<!-- Background -->
+<rect width="1280" height="560" rx="20" fill="url(#bgGrad)"/>
+<rect width="1280" height="560" rx="20" fill="url(#grid)"/>
+<circle cx="200" cy="280" r="320" fill="url(#redGlow)"/>
+<circle cx="1050" cy="180" r="250" fill="url(#dimGlow)"/>
+
+<!-- Decorative mask-like geometric shapes (left side) -->
+<g opacity=".08" class="fl">
+  <!-- Stylized Deadpool mask eye shape -->
+  <path d="M1080 380 Q1120 340 1180 350 Q1240 360 1260 400 Q1270 440 1230 460 Q1180 480 1120 460 Q1060 440 1050 400 Z" fill="none" stroke="#e2383f" stroke-width="2"/>
+  <path d="M1100 390 Q1140 360 1180 370 Q1220 380 1230 410 Q1240 440 1200 450 Q1160 460 1120 440 Q1080 420 1070 390 Z" fill="#e2383f" opacity=".15"/>
+</g>
+<g opacity=".06" class="fl2">
+  <path d="M1100 160 Q1130 130 1170 140 Q1210 150 1220 180 Q1230 210 1200 220 Q1160 230 1120 210 Q1080 190 1070 160 Z" fill="none" stroke="#e2383f" stroke-width="1.5"/>
+</g>
+
+<!-- Corner brackets -->
+<path class="corner" d="M52 72V52H72" fill="none" stroke="#e2383f" stroke-width="2" stroke-linecap="round" style="animation-delay:.2s"/>
+<path class="corner" d="M1228 72V52H1208" fill="none" stroke="#e2383f" stroke-width="2" stroke-linecap="round" style="animation-delay:.3s"/>
+<path class="corner" d="M52 488V508H72" fill="none" stroke="#e2383f" stroke-width="2" stroke-linecap="round" style="animation-delay:.4s"/>
+<path class="corner" d="M1228 488V508H1208" fill="none" stroke="#e2383f" stroke-width="2" stroke-linecap="round" style="animation-delay:.5s"/>
+
+<!-- Terminal prompt -->
+<text clip-path="url(#termClip)" x="48" y="68" font-size="13">
+  <tspan fill="#4ade80" font-weight="bold">deadpool@dev</tspan><tspan fill="#6b7280">:~$ </tspan><tspan fill="#e6edf3">cat </tspan><tspan fill="#e2383f">README.md</tspan>
+</text>
+<rect class="blink-cursor" x="482" y="56" width="7" height="15" fill="#4ade80"/>
+
+<!-- "Hi, I'm" -->
+<text clip-path="url(#hiClip)" x="48" y="130" font-size="24" font-weight="bold" fill="#e6edf3">Hi, I'm 👋</text>
+
+<!-- Name placeholder — uses profile-data.yml display_name at runtime -->
+<text x="48" y="180" font-size="56" font-weight="bold" fill="url(#nameGrad)" filter="url(#glowMd)" letter-spacing="-1">Sarang RN</text>
+
+<!-- Red accent underline -->
+<rect x="48" y="196" width="0" height="3" rx="1.5" fill="url(#barGrad)">
+  <animate attributeName="width" from="0" to="140" dur=".8s" begin="1.8s" fill="freeze"/>
+</rect>
+
+<!-- Cycling roles -->
+<text x="48" y="240" font-size="18" fill="#e6edf3" class="role-anim">Frontend Developer</text>
+<text x="48" y="240" font-size="18" fill="#e6edf3" class="role-anim" style="animation-delay:3s">UI/UX Craftsman</text>
+<text x="48" y="240" font-size="18" fill="#e6edf3" class="role-anim" style="animation-delay:6s">Open-Source Contributor</text>
+<text x="48" y="240" font-size="18" fill="#e6edf3" class="role-anim" style="animation-delay:9s">Continuous Learner</text>
+<rect x="48" y="228" width="2" height="16" fill="#e2383f" opacity="0">
+  <animate attributeName="opacity" values="1;0" dur=".8s" repeatCount="indefinite" begin="1.5s"/>
+</rect>
+
+<!-- Tagline -->
+<text x="48" y="280" font-size="15" fill="#8b949e" class="fi" style="animation-delay:2.2s">Building cinematic web experiences with modern technologies.</text>
+<text x="48" y="302" font-size="15" fill="#8b949e" class="fi" style="animation-delay:2.4s">MCA graduate · Fresher · Based in Kerala, India</text>
+
+<!-- Stats cards -->
+<g class="pc" style="animation-delay:2.8s">
+  <rect x="48" y="330" width="110" height="50" rx="10" fill="rgba(255,255,255,.03)" stroke="#2a2a2a"/>
+  <text x="64" y="358" font-size="22" font-weight="bold" fill="#e2383f">46</text>
+  <text x="64" y="374" font-size="9" fill="#6b7280" letter-spacing="1.2">REPOS</text>
+</g>
+<g class="pc" style="animation-delay:3s">
+  <rect x="172" y="330" width="110" height="50" rx="10" fill="rgba(255,255,255,.03)" stroke="#2a2a2a"/>
+  <text x="188" y="358" font-size="22" font-weight="bold" fill="#ff6b6b">21</text>
+  <text x="188" y="374" font-size="9" fill="#6b7280" letter-spacing="1.2">STARS</text>
+</g>
+<g class="pc" style="animation-delay:3.2s">
+  <rect x="296" y="330" width="110" height="50" rx="10" fill="rgba(255,255,255,.03)" stroke="#2a2a2a"/>
+  <text x="312" y="358" font-size="22" font-weight="bold" fill="#ff9999">3</text>
+  <text x="312" y="374" font-size="9" fill="#6b7280" letter-spacing="1.2">FOLLOWERS</text>
+</g>
+
+<!-- Open to work badge -->
+<g class="pc" style="animation-delay:3.5s">
+  <rect x="450" y="330" width="130" height="50" rx="10" fill="rgba(74,222,128,.08)" stroke="#4ade80" stroke-opacity=".35"/>
+  <circle cx="470" cy="350" r="4" fill="#4ade80" opacity=".9">
+    <animate attributeName="opacity" values="1;.2;1" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="482" y="354" font-size="9" fill="#4ade80" font-weight="bold" letter-spacing="1.3">OPEN TO</text>
+  <text x="482" y="370" font-size="9" fill="#4ade80" font-weight="bold" letter-spacing="1.3">WORK</text>
+</g>
+
+<!-- Rising particles -->
+<circle class="rp" cx="120" cy="470" r="1.8" fill="#e2383f" style="animation-duration:5s"/>
+<circle class="rp" cx="320" cy="490" r="1.3" fill="#ff6b6b" style="animation-duration:6.2s;animation-delay:1.2s"/>
+<circle class="rp" cx="500" cy="460" r="1.5" fill="#e2383f" style="animation-duration:5.5s;animation-delay:2.4s"/>
+<circle class="rp" cx="200" cy="510" r="1.1" fill="#ff9999" style="animation-duration:7s;animation-delay:.8s"/>
+<circle class="rp" cx="560" cy="480" r="1.4" fill="#e2383f" style="animation-duration:5.8s;animation-delay:3.2s"/>
+
+<!-- Right side: stylized Deadpool mask icon -->
+<g transform="translate(1020, 200)" class="fl" opacity=".9">
+  <!-- Outer shield shape -->
+  <ellipse cx="0" cy="0" rx="120" ry="140" fill="none" stroke="#e2383f" stroke-width="1.5" opacity=".25"/>
+  <!-- Mask left eye -->
+  <path d="M-90 -30 Q-60 -80 -20 -50 Q0 -30 -10 20 Q-30 60 -70 40 Q-100 20 -90 -30Z" fill="#1a1a1a" stroke="#e2383f" stroke-width="2"/>
+  <path d="M-85 -25 Q-55 -70 -20 -48 Q0 -30 -8 18 Q-26 55 -65 38 Q-95 20 -85 -25Z" fill="rgba(226,56,63,.12)"/>
+  <!-- Mask right eye -->
+  <path d="M20 -50 Q60 -80 90 -30 Q100 20 70 40 Q30 60 10 20 Q0 -30 20 -50Z" fill="#1a1a1a" stroke="#e2383f" stroke-width="2"/>
+  <path d="M22 -48 Q55 -70 85 -25 Q95 20 68 38 Q35 58 8 18 Q-2 -30 22 -48Z" fill="rgba(226,56,63,.12)"/>
+  <!-- Center line -->
+  <line x1="0" y1="-70" x2="0" y2="80" stroke="#e2383f" stroke-width="1" opacity=".3"/>
+  <!-- Mouth lines -->
+  <path d="M-40 50 Q0 70 40 50" fill="none" stroke="#e2383f" stroke-width="1.5" opacity=".4"/>
+  <path d="M-30 60 Q0 78 30 60" fill="none" stroke="#e2383f" stroke-width="1" opacity=".25"/>
+</g>
+
+<!-- Code snippet card on the right -->
+<g class="fi" style="animation-delay:3.8s">
+  <rect x="760" y="60" width="260" height="180" rx="12" fill="rgba(20,20,20,.9)" stroke="#2a2a2a" stroke-width="1"/>
+  <rect x="760" y="60" width="260" height="26" rx="12" fill="#1e1e1e"/>
+  <rect x="760" y="74" width="260" height="12" fill="#1e1e1e"/>
+  <circle cx="780" cy="73" r="4.5" fill="#ff5f57"/>
+  <circle cx="796" cy="73" r="4.5" fill="#febc2e"/>
+  <circle cx="812" cy="73" r="4.5" fill="#28c840"/>
+  <text x="880" y="77" text-anchor="middle" font-size="11" fill="#6b7280">wade.dev.tsx</text>
+  <g font-size="12">
+    <text x="776" y="108" fill="#c41e3a">const</text><text x="812" y="108" fill="#e6edf3"> hero = </text><text x="864" y="108" fill="#4ade80">()</text><text x="888" y="108" fill="#e6edf3"> &#123;</text>
+    <text x="790" y="126" fill="#6b7280">// coding like there's no tomorrow</text>
+    <text x="790" y="144" fill="#c41e3a">return</text><text x="834" y="144" fill="#e6edf3"> (</text>
+    <text x="804" y="162" fill="#6b7280">&lt;</text><text x="814" y="162" fill="#ff9999">Code</text><text x="848" y="162" fill="#6b7280"> /&gt;</text>
+    <text x="804" y="180" fill="#6b7280">&lt;</text><text x="814" y="180" fill="#4ade80">Coffee</text><text x="858" y="180" fill="#6b7280"> /&gt;</text>
+    <text x="804" y="198" fill="#6b7280">&lt;</text><text x="814" y="198" fill="#ff9999">ShipIt</text><text x="868" y="198" fill="#6b7280"> /&gt;</text>
+    <text x="790" y="216" fill="#e6edf3">);</text>
+    <text x="776" y="234" fill="#e6edf3">&#125;</text>
+  </g>
+</g>
+
+<!-- Footer quote -->
+<g class="fi" style="animation-delay:4.2s">
+  <line x1="48" y1="500" x2="1232" y2="500" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="48" y="524" font-size="13" fill="#6b7280">
+    <tspan fill="#e2383f">&#10067;</tspan>
+    <tspan fill="#e6edf3">Maximum effort.</tspan>
+    <tspan fill="#6b7280"> Minimum bugs.</tspan>
+    <tspan fill="#e2383f">&#10067;</tspan>
+  </text>
+  <text x="64" y="524" font-size="11" fill="#4a4a4a" text-anchor="end">@saranghaeyong · 2026</text>
+</g>
+
+<!-- Border -->
+<rect x=".75" y=".75" width="1278.5" height="558.5" rx="19.25" fill="none" stroke="url(#edgeGrad)" stroke-width="1.5"/>
+</svg>

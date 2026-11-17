@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 480" width="1280" height="480" role="img" aria-label="About Me section">
+<title>About Me — Deadpool Developer</title>
+<defs>
+<style type="text/css"><![CDATA[
+text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes slideRight{from{transform:translateX(-16px);opacity:0}to{transform:translateX(0);opacity:1}}
+.row{opacity:0;animation:slideRight .6s cubic-bezier(.2,.8,.3,1) forwards}
+.fi{animation:fadeIn .5s ease forwards}
+.pc{opacity:0;animation:pop .5s cubic-bezier(.2,.8,.3,1.2) forwards}
+@keyframes pop{0%{opacity:0;transform:scale(.9)}70%{opacity:1;transform:scale(1.02)}100%{opacity:1;transform:scale(1)}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;opacity:1!important;transform:none!important}}
+]]></style>
+<linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0%" stop-color="#141414"/>
+  <stop offset="100%" stop-color="#0e0e0e"/>
+</linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#e2383f"/>
+  <stop offset="100%" stop-color="#c41e3a"/>
+</linearGradient>
+<linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#e2383f" stop-opacity=".4"/>
+  <stop offset="100%" stop-color="#2a2a2a" stop-opacity=".2"/>
+</linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+  <circle cx="11" cy="11" r=".6" fill="rgba(226,56,63,.06)"/>
+</pattern>
+</defs>
+
+<rect width="1280" height="480" rx="22" fill="url(#panel)"/>
+<rect width="1280" height="480" rx="22" fill="url(#dots)"/>
+<rect x=".75" y=".75" width="1278.5" height="478.5" rx="21.25" fill="none" stroke="url(#border)" stroke-width="1.5"/>
+
+<!-- Header -->
+<g class="fi" style="animation-delay:.1s">
+  <rect x="48" y="40" width="4" height="28" rx="2" fill="url(#accent)"/>
+  <text x="64" y="62" font-size="12" fill="#e2383f" font-weight="bold" letter-spacing="2.5">// SECTION_02</text>
+  <text x="64" y="96" font-size="32" fill="#f0f0f0" font-weight="bold" letter-spacing="-.5">About Me</text>
+  <text x="64" y="122" font-size="15" fill="#6b7280">The person behind the mask</text>
+</g>
+
+<!-- Left column: Bio cards -->
+<g class="row" style="animation-delay:.3s">
+  <rect x="48" y="150" width="540" height="100" rx="14" fill="rgba(255,255,255,.02)" stroke="#2a2a2a"/>
+  <rect x="48" y="150" width="4" height="100" rx="2" fill="#e2383f"/>
+  <text x="76" y="180" font-size="14" fill="#e2383f" font-weight="bold">🎓 EDUCATION</text>
+  <text x="76" y="206" font-size="20" fill="#f0f0f0" font-weight="bold">MCA Graduate</text>
+  <text x="76" y="230" font-size="13" fill="#6b7280">TODO_COLLEGE &#183; TODO_YEAR</text>
+</g>
+
+<g class="row" style="animation-delay:.45s">
+  <rect x="48" y="268" width="540" height="100" rx="14" fill="rgba(255,255,255,.02)" stroke="#2a2a2a"/>
+  <rect x="48" y="268" width="4" height="100" rx="2" fill="#ff6b6b"/>
+  <text x="76" y="298" font-size="14" fill="#ff6b6b" font-weight="bold">💼 CAREER</text>
+  <text x="76" y="324" font-size="20" fill="#f0f0f0" font-weight="bold">Fresher</text>
+  <text x="76" y="348" font-size="13" fill="#6b7280">Seeking IT / Software Development roles</text>
+</g>
+
+<g class="row" style="animation-delay:.6s">
+  <rect x="48" y="386" width="540" height="70" rx="14" fill="rgba(226,56,63,.06)" stroke="#e2383f" stroke-opacity=".3"/>
+  <text x="76" y="418" font-size="14" fill="#e2383f" font-weight="bold">🎯 GOAL</text>
+  <text x="76" y="444" font-size="13" fill="#cdd6e0">Looking for opportunities in Kerala, India — eager to learn, grow, and ship quality code.</text>
+</g>
+
+<!-- Right column: Values / traits -->
+<g class="fi" style="animation-delay:.5s">
+  <text x="680" y="62" font-size="12" fill="#6b7280" letter-spacing="2.5">// WHY ME</text>
+</g>
+
+<!-- Trait cards -->
+<g class="pc" style="animation-delay:.7s">
+  <rect x="680" y="80" width="240" height="80" rx="12" fill="rgba(255,255,255,.02)" stroke="#2a2a2a"/>
+  <text x="700" y="112" font-size="24">🚀</text>
+  <text x="736" y="112" font-size="13" fill="#f0f0f0" font-weight="bold">Fast Learner</text>
+  <text x="700" y="138" font-size="11.5" fill="#6b7280">Quickly pick up new frameworks</text>
+  <text x="700" y="154" font-size="11.5" fill="#6b7280">and best practices.</text>
+</g>
+
+<g class="pc" style="animation-delay:.85s">
+  <rect x="940" y="80" width="240" height="80" rx="12" fill="rgba(255,255,255,.02)" stroke="#2a2a2a"/>
+  <text x="960" y="112" font-size="24">🎨</text>
+  <text x="996" y="112" font-size="13" fill="#f0f0f0" font-weight="bold">Detail Oriented</text>
+  <text x="960" y="138" font-size="11.5" fill="#6b7280">Pixel-perfect UI with clean,</text>
+  <text x="960" y="154" font-size="11.5" fill="#6b7280">maintainable code.</text>
+</g>
+
+<g class="pc" style="animation-delay:1s">
+  <rect x="680" y="180" width="240" height="80" rx="12" fill="rgba(255,255,255,.02)" stroke="#2a2a2a"/>
+  <text x="700" y="212" font-size="24">⚡</text>
+  <text x="736" y="212" font-size="13" fill="#f0f0f0" font-weight="bold">Team Player</text>
+  <text x="700" y="238" font-size="11.5" fill="#6b7280">Collaborative, communicative,</text>
+  <text x="700" y="254" font-size="11.5" fill="#6b7280">and deadline-driven.</text>
+</g>
+
+<g class="pc" style="animation-delay:1.15s">
+  <rect x="940" y="180" width="240" height="80" rx="12" fill="rgba(255,255,255,.02)" stroke="#2a2a2a"/>
+  <text x="960" y="212" font-size="24">🔥</text>
+  <text x="996" y="212" font-size="13" fill="#f0f0f0" font-weight="bold">Self Motivated</text>
+  <text x="960" y="238" font-size="11.5" fill="#6b7280">Side projects, hackathons, and</text>
+  <text x="960" y="254" font-size="11.5" fill="#6b7280">continuous skill building.</text>
+</g>
+
+<!-- Divider -->
+<g class="fi" style="animation-delay:1.3s">
+  <line x1="680" y1="290" x2="1180" y2="290" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="680" y="320" font-size="12" fill="#6b7280" letter-spacing="2.5">// CURRENT FOCUS</text>
+</g>
+
+<!-- Learning goals -->
+<g class="pc" style="animation-delay:1.5s">
+  <rect x="680" y="336" width="540" height="44" rx="10" fill="rgba(226,56,63,.05)" stroke="#e2383f" stroke-opacity=".2"/>
+  <circle cx="700" cy="358" r="4" fill="#e2383f" opacity=".8"/>
+  <text x="714" y="363" font-size="13" fill="#cdd6e0">Building responsive React applications &amp; improving TypeScript proficiency.</text>
+</g>
+
+<g class="pc" style="animation-delay:1.65s">
+  <rect x="680" y="392" width="540" height="44" rx="10" fill="rgba(255,255,255,.02)" stroke="#2a2a2a"/>
+  <circle cx="700" cy="414" r="4" fill="#4ade80" opacity=".6"/>
+  <text x="714" y="419" font-size="13" fill="#cdd6e0">Exploring Node.js backends and REST API design patterns.</text>
+</g>
+
+<!-- Deadpool accent -->
+<g transform="translate(1220, 440)" opacity=".15" class="fi" style="animation-delay:1.8s">
+  <path d="M0 -30 Q20 -50 40 -30 Q50 -10 40 20 Q20 40 0 30 Q-20 40 -40 20 Q-50 -10 -40 -30 Q-20 -50 0 -30Z" fill="none" stroke="#e2383f" stroke-width="2"/>
+  <circle cx="-15" cy="-8" r="6" fill="#e2383f" opacity=".3"/>
+  <circle cx="15" cy="-8" r="6" fill="#e2383f" opacity=".3"/>
+</g>
+</svg>
